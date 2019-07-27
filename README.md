@@ -92,7 +92,7 @@ post request.
 curl -F "mzn=@<MZN>" -F "dzn=@<DZN>" http://localhost:<PORT>/get_features
 ```
 
-To clean up please lunch the following commands:
+To clean up please launch the following commands:
 ```
 sudo docker stop sunny_cp_container
 sudo docker rm sunny_cp_container
